@@ -1,0 +1,14 @@
+G:\3kyrs\1sem\c#lab\CofRPattern\obj\Debug\net8.0\CofRPattern.GeneratedMSBuildEditorConfig.editorconfig
+G:\3kyrs\1sem\c#lab\CofRPattern\obj\Debug\net8.0\CofRPattern.AssemblyInfoInputs.cache
+G:\3kyrs\1sem\c#lab\CofRPattern\obj\Debug\net8.0\CofRPattern.AssemblyInfo.cs
+G:\3kyrs\1sem\c#lab\CofRPattern\obj\Debug\net8.0\CofRPattern.csproj.CoreCompileInputs.cache
+G:\3kyrs\1sem\c#lab\CofRPattern\bin\Debug\net8.0\CofRPattern.exe
+G:\3kyrs\1sem\c#lab\CofRPattern\bin\Debug\net8.0\CofRPattern.deps.json
+G:\3kyrs\1sem\c#lab\CofRPattern\bin\Debug\net8.0\CofRPattern.runtimeconfig.json
+G:\3kyrs\1sem\c#lab\CofRPattern\bin\Debug\net8.0\CofRPattern.dll
+G:\3kyrs\1sem\c#lab\CofRPattern\bin\Debug\net8.0\CofRPattern.pdb
+G:\3kyrs\1sem\c#lab\CofRPattern\obj\Debug\net8.0\CofRPattern.dll
+G:\3kyrs\1sem\c#lab\CofRPattern\obj\Debug\net8.0\refint\CofRPattern.dll
+G:\3kyrs\1sem\c#lab\CofRPattern\obj\Debug\net8.0\CofRPattern.pdb
+G:\3kyrs\1sem\c#lab\CofRPattern\obj\Debug\net8.0\CofRPattern.genruntimeconfig.cache
+G:\3kyrs\1sem\c#lab\CofRPattern\obj\Debug\net8.0\ref\CofRPattern.dll
