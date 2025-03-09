@@ -9,12 +9,12 @@ laba2
 none
 false
 DEBUG;TRACE
-C:\Users\Danil\source\repos\laba2\laba2\App.xaml
-31984819132
 
-949691126
+6738648081
+
+14-393547021
 13-1310406943
-AddStudentWindow.xaml;EditStudentWindow.xaml;MainWindow.xaml;
+AddStudentWindow.xaml;App.xaml;ApplicationsWindow.xaml;AssignResponsibleWindow.xaml;EditStudentWindow.xaml;MainWindow.xaml;
 
 False
 

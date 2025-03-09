@@ -4,8 +4,12 @@
         Title="University Management System" Height="350" Width="525">
     <DockPanel>
         <StackPanel DockPanel.Dock="Top" Orientation="Horizontal" Margin="10">
-            <Button Content="Add Student" x:Name="AddStudentButton" Click="AddStudentButton_Click" Margin="0,0,10,0"/>
-            <Button Content="Edit Student" x:Name="EditStudentButton" Click="EditStudentButton_Click"/>
+            <StackPanel DockPanel.Dock="Top" Orientation="Horizontal" Margin="10">
+                <Button Content="Add Student" Click="AddStudentButton_Click" Margin="0,0,10,0"/>
+                <Button Content="Edit Student" Click="EditStudentButton_Click" Margin="0,0,10,0"/>
+                <Button Content="View Applications" Click="ViewApplicationsButton_Click" Margin="0,0,10,0"/>
+                <Button Content="Assign Responsible" Click="AssignResponsibleButton_Click"/>
+            </StackPanel>
         </StackPanel>
         <ListView x:Name="StudentsListView" Margin="10">
             <ListView.View>

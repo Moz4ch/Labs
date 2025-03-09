@@ -1,17 +1,16 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Configuration;
-using System.Data;
-using System.Linq;
-using System.Threading.Tasks;
 using System.Windows;
 
-namespace laba2
+namespace UniversityManagementSystem
 {
-    /// <summary>
-    /// Логика взаимодействия для App.xaml
-    /// </summary>
-    public partial class App : Application
+    public partial class App
     {
+        [STAThread]
+        public static void Main()
+        {
+            var app = new App();
+            app.InitializeComponent();
+            app.Run();
+        }
     }
 }

@@ -1,4 +1,6 @@
-C:\Users\Danil\source\repos\laba2\laba2\obj\Debug\laba2.csproj.AssemblyReference.cache
+C:\Users\Danil\source\repos\laba2\laba2\bin\Debug\laba2.exe
+C:\Users\Danil\source\repos\laba2\laba2\bin\Debug\laba2.pdb
+C:\Users\Danil\source\repos\laba2\laba2\obj\Debug\laba3.csproj.AssemblyReference.cache
 C:\Users\Danil\source\repos\laba2\laba2\obj\Debug\AddStudentWindow.baml
 C:\Users\Danil\source\repos\laba2\laba2\obj\Debug\App.baml
 C:\Users\Danil\source\repos\laba2\laba2\obj\Debug\ApplicationsWindow.baml
@@ -14,9 +16,7 @@ C:\Users\Danil\source\repos\laba2\laba2\obj\Debug\MainWindow.g.cs
 C:\Users\Danil\source\repos\laba2\laba2\obj\Debug\laba2_MarkupCompile.cache
 C:\Users\Danil\source\repos\laba2\laba2\obj\Debug\laba2.g.resources
 C:\Users\Danil\source\repos\laba2\laba2\obj\Debug\laba2.Properties.Resources.resources
-C:\Users\Danil\source\repos\laba2\laba2\obj\Debug\laba2.csproj.GenerateResource.cache
-C:\Users\Danil\source\repos\laba2\laba2\obj\Debug\laba2.csproj.CoreCompileInputs.cache
-C:\Users\Danil\source\repos\laba2\laba2\bin\Debug\laba2.exe
-C:\Users\Danil\source\repos\laba2\laba2\bin\Debug\laba2.pdb
+C:\Users\Danil\source\repos\laba2\laba2\obj\Debug\laba3.csproj.GenerateResource.cache
+C:\Users\Danil\source\repos\laba2\laba2\obj\Debug\laba3.csproj.CoreCompileInputs.cache
 C:\Users\Danil\source\repos\laba2\laba2\obj\Debug\laba2.exe
 C:\Users\Danil\source\repos\laba2\laba2\obj\Debug\laba2.pdb

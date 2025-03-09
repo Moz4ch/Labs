@@ -37,5 +37,16 @@ namespace UniversityManagementSystem
                 MessageBox.Show("Выберите студента для редактирования");
             }
         }
+        private void ViewApplicationsButton_Click(object sender, RoutedEventArgs e)
+        {
+            var applicationsWindow = new ApplicationsWindow();
+            applicationsWindow.ShowDialog();
+        }
+
+        private void AssignResponsibleButton_Click(object sender, RoutedEventArgs e)
+        {
+            var assignResponsibleWindow = new AssignResponsibleWindow();
+            assignResponsibleWindow.ShowDialog();
+        }
     }
 }
