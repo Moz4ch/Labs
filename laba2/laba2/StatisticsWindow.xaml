@@ -1,0 +1,31 @@
+﻿<Window x:Class="UniversityManagementSystem.StatisticsWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="Department Statistics" Height="450" Width="600">
+    <DockPanel>
+        <StackPanel DockPanel.Dock="Top" Margin="10">
+            <Label Content="Total Courses:" FontWeight="Bold"/>
+            <TextBlock x:Name="TotalCoursesTextBlock" Margin="10,0,0,0"/>
+            <Label Content="Total Students:" FontWeight="Bold"/>
+            <TextBlock x:Name="TotalStudentsTextBlock" Margin="10,0,0,0"/>
+            <Label Content="Instructor Workload:" FontWeight="Bold"/>
+            <ListView x:Name="InstructorWorkloadListView" Margin="10">
+                <ListView.View>
+                    <GridView>
+                        <GridViewColumn Header="Instructor" DisplayMemberBinding="{Binding Key}"/>
+                        <GridViewColumn Header="Courses" DisplayMemberBinding="{Binding Value}"/>
+                    </GridView>
+                </ListView.View>
+            </ListView>
+            <Label Content="Course Fill Rate:" FontWeight="Bold"/>
+            <ListView x:Name="CourseFillRateListView" Margin="10">
+                <ListView.View>
+                    <GridView>
+                        <GridViewColumn Header="Course" DisplayMemberBinding="{Binding Key}"/>
+                        <GridViewColumn Header="Fill Rate (%)" DisplayMemberBinding="{Binding Value}"/>
+                    </GridView>
+                </ListView.View>
+            </ListView>
+        </StackPanel>
+    </DockPanel>
+</Window>
