@@ -1,0 +1,46 @@
+﻿<Window x:Class="LibrarySystem.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="Библиотечная система" Height="600" Width="800">
+    <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="Auto"/>
+            <RowDefinition Height="*"/>
+        </Grid.RowDefinitions>
+
+        <StackPanel Grid.Row="0" Orientation="Horizontal" Margin="10">
+            <TextBlock Text="Пользователь:" Margin="0,0,5,0"/>
+            <TextBlock x:Name="CurrentUserTextBlock" FontWeight="Bold"/>
+            <Button Content="Добавить книгу" Margin="10,0,0,0" Click="AddBookButton_Click"/>
+        </StackPanel>
+
+        <DataGrid Grid.Row="1" x:Name="BooksDataGrid" Margin="10" AutoGenerateColumns="False"
+                  CanUserAddRows="False" IsReadOnly="True" SelectionMode="Single">
+            <DataGrid.Columns>
+                <DataGridTextColumn Header="Артикул" Binding="{Binding ArticleNumber}" Width="80"/>
+                <DataGridTextColumn Header="Название" Binding="{Binding Title}" Width="*"/>
+                <DataGridTextColumn Header="Жанр" Binding="{Binding Genre}" Width="120"/>
+                <DataGridTextColumn Header="Дата выпуска" Binding="{Binding ReleaseDate, StringFormat=\{0:dd.MM.yyyy\}}" Width="100"/>
+                <DataGridTextColumn Header="Статус" Binding="{Binding Status}" Width="120"/>
+                <DataGridTextColumn Header="Читатель" Binding="{Binding CurrentReader.FullName}" Width="150"/>
+
+                <DataGridTemplateColumn Width="Auto">
+                    <DataGridTemplateColumn.CellTemplate>
+                        <DataTemplate>
+                            <StackPanel Orientation="Horizontal">
+                                <Button Content="Выдать" Margin="2" Click="IssueBook_Click" 
+                                        IsEnabled="{Binding Status, Converter={StaticResource StatusToBoolConverter}, ConverterParameter=Available}"/>
+                                <Button Content="Вернуть" Margin="2" Click="ReturnBook_Click"
+                                        IsEnabled="{Binding Status, Converter={StaticResource StatusToBoolConverter}, ConverterParameter=Issued}"/>
+                                <Button Content="Обслуживание" Margin="2" Click="MaintenanceBook_Click"
+                                        IsEnabled="{Binding Status, Converter={StaticResource StatusToBoolConverter}, ConverterParameter=Available}"/>
+                                <Button Content="Редактировать" Margin="2" Click="EditBook_Click"/>
+                                <Button Content="Удалить" Margin="2" Click="DeleteBook_Click"/>
+                            </StackPanel>
+                        </DataTemplate>
+                    </DataGridTemplateColumn.CellTemplate>
+                </DataGridTemplateColumn>
+            </DataGrid.Columns>
+        </DataGrid>
+    </Grid>
+</Window>
